@@ -1,0 +1,10 @@
+[theme]
+base            = "dark"
+primaryColor    = "#6C63FF"
+backgroundColor = "#0D0F1A"
+secondaryBackgroundColor = "#1A1D2E"
+textColor       = "#E8E8F0"
+font            = "sans serif"
+
+[server]
+fileWatcherType = "none"   # Stops Streamlit scanning huge ML libraries like transformers
