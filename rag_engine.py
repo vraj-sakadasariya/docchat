@@ -21,7 +21,7 @@ from groq import Groq
 
 # ─── Constants ────────────────────────────────────────────────────────────────
 EMBED_MODEL = "all-MiniLM-L6-v2"   # Small, fast, good quality
-LLM_MODEL   = "llama-3.1-8b-instant"   # Updated: llama3-8b-8192 was decommissioned
+LLM_MODEL   = "openai/gpt-oss-20b"   # Updated: llama3-8b-8192 was decommissioned
 CHUNK_SIZE  = 400                   # Words per chunk
 CHUNK_OVERLAP = 60                  # Overlap to avoid losing context at edges
 TOP_K       = 4                     # Number of chunks to retrieve per query
